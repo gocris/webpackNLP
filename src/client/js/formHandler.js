@@ -14,7 +14,7 @@ const handleSubmit = function(event) {
     //})
     let formText = document.getElementById('name').value;
     /*if (validUrl.isUri(formText)){*/
-      getAylien('/article', formText); /*
+      getAylien('http://localhost:8081/article', formText); /*
     } else {
       document.getElementById('error-message').innerHTML = "Sorry, this is not a valid URL."
     } */
