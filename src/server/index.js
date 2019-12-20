@@ -47,6 +47,7 @@ app.post('/article', function (req, res) {
       mode: 'document'
     }, function(error, response) {
       console.log(response);
+      res.send(response);
       if (error === null) {
         console.log(response);
       }
